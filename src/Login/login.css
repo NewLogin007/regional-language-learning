@@ -1,0 +1,31 @@
+
+.wrapper{
+    height: 25rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.username{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 2rem;
+    padding: 0.1rem;    
+}
+
+.password{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 2rem;
+    padding: 0.1rem; 
+}
+
+.login-btn{
+    height: 2rem;
+    width: 5rem;    
+    border-radius: 1rem;
+}
