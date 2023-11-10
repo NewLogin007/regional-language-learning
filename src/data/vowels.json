@@ -1,60 +1,58 @@
-[    
-    {          
-        "text": "vowels",
-        "data": 
-        [
-            {
-                "display": "अ",
-                "link": "https://drive.google.com/file/d/1ujfS5Z1YHWHkyWw7gnnaBT2yrFoh-pGK/view?usp=drive_link"
-            },
-            {
-                "display": "आ",
-                "link": "https://drive.google.com/file/d/10jijRspDwlnE-ZNXO2W1Jhs3TrNXHokF/view?usp=drive_link"
-            },
-            {
-                "display": "इ",
-                "link": "https://drive.google.com/file/d/1nyGlFSnWvc6r3_x5pr8wqvZgZ6IKUXr7/view?usp=drive_link"
-            },
-            {
-                "display": "ई",
-                "link": "https://drive.google.com/file/d/12ARiTZwE1RLH_G_83-KjJyzVGZRhP9Xc/view?usp=drive_link"
-            },
-            {
-                "display": "उ",
-                "link": "https://drive.google.com/file/d/1xcIhTJmTEawZdRvY3uvjBIZun-72QztX/view?usp=drive_link"
-            },
-            {
-                "display": "ऊ",
-                "link": "https://drive.google.com/file/d/1N3PsyGASeSB0Fs_R2suCppRWYYgE7ksS/view?usp=drive_link"
-            },
-            {
-                "display": "ऋ",
-                "link": "https://drive.google.com/file/d/1rejp-tDemVZEvhou6VfgFeQfkgJdo507/view?usp=drive_link"
-            },
-            {
-                "display": "ए",
-                "link": "https://drive.google.com/file/d/1anjJbBRqepg13RxpnBBPXk1FzVJeV7lZ/view?usp=drive_link"
-            },
-            {
-                "display": "ऐ",
-                "link": "https://drive.google.com/file/d/1YcyxVYf74LyYxJBeaOQwaeEYLo3GO-9p/view?usp=drive_link"
-            },
-            {
-                "display": "ओ",
-                "link": "https://drive.google.com/file/d/10KrJ2LPVej5bPtrFSnuT60xAXzxw-dzB/view?usp=drive_link"
-            },
-            {
-                "display": "औ",
-                "link": "https://drive.google.com/file/d/1LPiznB5WTD0OVBmUoW1ItsUq_vgqubs4/view?usp=drive_link"
-            },
-            {
-                "display": "अं",
-                "link": "https://drive.google.com/file/d/1yPghWhEnxKDQPw9oiqkC2_J28gcp5-Sw/view?usp=drive_link"
-            },
-            {
-                "display": "अ:",
-                "link": "https://drive.google.com/file/d/1CJFmeNtg8_z-VqSAaQmkT8W7Iy2Mb3ff/view?usp=drive_link"
-            }
-        ]
-    }
-]
+{          
+    "title": "vowels",
+    "data": 
+    [
+        {
+            "text": "अ",
+            "link": "https://drive.google.com/file/d/1ujfS5Z1YHWHkyWw7gnnaBT2yrFoh-pGK/view?usp=drive_link"
+        },
+        {
+            "text": "आ",
+            "link": "https://drive.google.com/file/d/10jijRspDwlnE-ZNXO2W1Jhs3TrNXHokF/view?usp=drive_link"
+        },
+        {
+            "text": "इ",
+            "link": "https://drive.google.com/file/d/1nyGlFSnWvc6r3_x5pr8wqvZgZ6IKUXr7/view?usp=drive_link"
+        },
+        {
+            "text": "ई",
+            "link": "https://drive.google.com/file/d/12ARiTZwE1RLH_G_83-KjJyzVGZRhP9Xc/view?usp=drive_link"
+        },
+        {
+            "text": "उ",
+            "link": "https://drive.google.com/file/d/1xcIhTJmTEawZdRvY3uvjBIZun-72QztX/view?usp=drive_link"
+        },
+        {
+            "text": "ऊ",
+            "link": "https://drive.google.com/file/d/1N3PsyGASeSB0Fs_R2suCppRWYYgE7ksS/view?usp=drive_link"
+        },
+        {
+            "text": "ऋ",
+            "link": "https://drive.google.com/file/d/1rejp-tDemVZEvhou6VfgFeQfkgJdo507/view?usp=drive_link"
+        },
+        {
+            "text": "ए",
+            "link": "https://drive.google.com/file/d/1anjJbBRqepg13RxpnBBPXk1FzVJeV7lZ/view?usp=drive_link"
+        },
+        {
+            "text": "ऐ",
+            "link": "https://drive.google.com/file/d/1YcyxVYf74LyYxJBeaOQwaeEYLo3GO-9p/view?usp=drive_link"
+        },
+        {
+            "text": "ओ",
+            "link": "https://drive.google.com/file/d/10KrJ2LPVej5bPtrFSnuT60xAXzxw-dzB/view?usp=drive_link"
+        },
+        {
+            "text": "औ",
+            "link": "https://drive.google.com/file/d/1LPiznB5WTD0OVBmUoW1ItsUq_vgqubs4/view?usp=drive_link"
+        },
+        {
+            "text": "अं",
+            "link": "https://drive.google.com/file/d/1yPghWhEnxKDQPw9oiqkC2_J28gcp5-Sw/view?usp=drive_link"
+        },
+        {
+            "text": "अ:",
+            "link": "https://drive.google.com/file/d/1CJFmeNtg8_z-VqSAaQmkT8W7Iy2Mb3ff/view?usp=drive_link"
+        }
+    ]
+}
