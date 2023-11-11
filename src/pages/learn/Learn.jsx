@@ -19,7 +19,7 @@ export default function Learn() {
                     Vowels
                 </div>
                 <div className={s.btn}>
-                    Practice
+                    Consonants
                 </div>
             </div>
         </div>
