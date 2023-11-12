@@ -1,29 +1,30 @@
-import s from './Vowels.module.scss'
-import vowelsData from '../../data/vowels.json'
-import { useState } from 'react';
-import { createContext } from 'react';
-import { useContext } from 'react';
+import { useLocation } from 'react-router'
+import s from './Consonant.module.scss'
+import { useState, createContext, useContext } from 'react';
 
 const LinkContext = createContext({
     link: {},
     setLink: () => {}
 });
+
 const iframeStyle = {
     width: "80%",
     height: "80%",
     border: 0
 }
 
-export default function Vowels() {
+export default function Consonant(){
+    const {state} = useLocation();
     const [link, setLink] = useState(undefined);
+    console.log(state);
 
-    return (
+    return(
         <LinkContext.Provider value={{link, setLink}}>
-            <div id={s.vowels}>
+            <div id={s.container}>
                 <div id={s.title}>
-                    Vowels
+                    {state.title}
                 </div>
-                <List />
+                <List state={state} />
                 {
                     link !== undefined &&
                     <div id={s.display}>
@@ -38,16 +39,16 @@ export default function Vowels() {
                 }
             </div>
         </LinkContext.Provider>
-    );
+    )
 }
 
 
-function List(){
+function List(props){
     return(
         <ul id={s.list}>
             {
-                vowelsData.data.map((item, idx) => {
-                    return <ListItem key={idx} text={item.text} link={item.link} side={idx % 2 === 0 ? "left" : "right"} />
+                props.state.data.map((item, idx) => {
+                    return <ListItem key={idx} text={item.display} link={item.link} side={idx % 2 === 0 ? "left" : "right"} />
                 })
             }
         </ul>

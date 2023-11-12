@@ -1,10 +1,11 @@
 import s from './Home.module.scss';
-import React, { useContext, useEffect } from 'react';
+import React from 'react';
+// import { useContext, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import { UserContext } from '../../contexts/UserContext';
+// import { UserContext } from '../../contexts/UserContext';
 
 export default function Home() {
-    const {userData} = useContext(UserContext);
+    // const {userData} = useContext(UserContext);
     const navigate = useNavigate();
 
     // useEffect(() => {

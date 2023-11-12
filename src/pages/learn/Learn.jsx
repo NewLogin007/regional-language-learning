@@ -18,7 +18,12 @@ export default function Learn() {
                 >
                     Vowels
                 </div>
-                <div className={s.btn}>
+                <div
+                className={s.btn}
+                onClick={() => {
+                    navigate("/consonantslist");
+                }}
+                >
                     Consonants
                 </div>
             </div>

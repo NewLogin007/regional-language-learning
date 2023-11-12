@@ -1,10 +1,12 @@
  import React from "react";
  import { BrowserRouter, Routes, Route } from 'react-router-dom';
- import SignIn from "./pages/SignIn";
+//  import SignIn from "./pages/SignIn";
 import Home from "./pages/home/Home";
 import { UserContext } from "./contexts/UserContext";
 import Vowels from "./pages/vowels/Vowels";
 import Learn from "./pages/learn/Learn";
+import ConsonantsList from "./pages/cononants/ConsonantsList";
+import Consonant from "./pages/cononants/Consonant";
 
  function App() {
   const [userData, setUserData] = React.useState({});
@@ -20,6 +22,8 @@ import Learn from "./pages/learn/Learn";
                 <Route path='/home' element={<Home />} />
                 <Route path='/learn' element={<Learn />} />
                 <Route path='/vowels' element={<Vowels />} />
+                <Route path='/consonantslist' element={<ConsonantsList />} />
+                <Route path='/consonant' element={<Consonant />} />
               </Routes>
             </BrowserRouter>
           </UserContext.Provider>
