@@ -1,6 +1,7 @@
 const express = require('express');
 const mysql = require('mysql');
 const cors = require('cors');
+const fs = require('fs')
 
 const app = express();
 app.use(express.json());
@@ -28,6 +29,25 @@ app.post('/login', (req,res) => {
       return res.json({status: "not found"})
     }
   })
+})
+
+app.get("/getfile", (req, res) => {
+  const fileName = req.query.file;
+
+  fs.readFile(`./data/${fileName}.json`, 'utf8', (err, data) => {
+    if (err) {
+      console.log("Cannot find file: " + fileName);
+      res.json({
+        error: "File not found"
+      });
+    } else {
+      // Send the content of the file in the response
+      res.json({
+        name: fileName,
+        file: JSON.parse(data)  // Assuming the content is JSON
+      });
+    }
+  });
 })
 
 app.post("/signup", (req, res) => {
