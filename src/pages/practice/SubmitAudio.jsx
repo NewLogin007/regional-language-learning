@@ -46,26 +46,30 @@ export default function SubmitAudio(){
     //  un-comment to send this to your server
     //  start the server and make a endpoint
     //  then send the request
+    
     const sendAudioToServer = async () => {
         if(data === null) return;
         console.log(data);
-        // try {
-        //     const formData = new FormData();
-        //     formData.append('audio', data, 'recorded_audio.wav');
-
-        //     const response = await fetch('http://your-python-server-endpoint', {
-        //     method: 'POST',
-        //     body: formData,
-        //     });
-
-        //     if (response.ok) {
-        //     console.log('Audio successfully sent to the server');
-        //     } else {
-        //     console.error('Failed to send audio to the server');
-        //     }
-        // } catch (error) {
-        //     console.error('Error sending audio to the server:', error);
-        // }
+        try {
+            const formData = new FormData();
+            formData.append('audio', data, 'recorded_audio');
+            formData.append('text', state.text);
+            console.log(state.text);
+            const response = await fetch('http://localhost:5000/upload-audio', {
+            method: 'POST',
+            body: formData,
+            });
+            
+            console.log(response);
+            if (response.ok) {
+            console.log('Audio successfully sent to the server');
+            
+            } else {
+            console.error('Failed to send audio to the server');
+            }
+        } catch (error) {
+            console.error('Error sending audio to the server:', error);
+        }
     };
 
     return(
