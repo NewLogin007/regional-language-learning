@@ -1,13 +1,13 @@
 [
     {
         "text": "क class",
-        "unlocked": false,
+        "unlocked": true,
         "data": 
         [
             {
                 "display": "क",
                 "link": "https://drive.google.com/file/d/19-9ZZKarIXtxUImIUGNZFitfnjRaCUSk/preview",
-                "unlocked": false
+                "unlocked": true
             },
             {
                 "display": "ख",
@@ -39,7 +39,7 @@
             {
                 "display": "च",
                 "link": "https://drive.google.com/file/d/1Ak4QhpJ_9J95PZHGZL9rJAdyrM4s-x9G/preview",
-                "unlocked": false
+                "unlocked": true
             },
             {
                 "display": "छ",
@@ -71,7 +71,7 @@
             {
                 "display": "ट",
                 "link": "https://drive.google.com/file/d/1ek_SBE06zGopDxRbAUeVKlWE-AL2K1Xq/preview",
-                "unlocked": false
+                "unlocked": true
             },
             {
                 "display": "ठ",
@@ -103,7 +103,7 @@
             {
                 "display": "त",
                 "link": "https://drive.google.com/file/d/1mVYYhK6JwbTQDEOmZQgyGwWjhsuRSA1W/preview",
-                "unlocked": false
+                "unlocked": true
             },
             {
                 "display": "थ",
@@ -135,7 +135,7 @@
             {
                 "display": "प",
                 "link": "https://drive.google.com/file/d/19sIq3i0IQfZemFjd5eR-4BXfWCYxYFxI/preview",
-                "unlocked": false
+                "unlocked": true
             },
             {
                 "display": "फ",
@@ -167,7 +167,7 @@
             {
                 "display": "य",
                 "link": "https://drive.google.com/file/d/1XZq2lpY1PHcTXUY7m_y3WL5hDE592Ppb/preview",
-                "unlocked": false
+                "unlocked": true
             },
             {
                 "display": "र",
@@ -214,7 +214,7 @@
             {
                 "display": "क्ष",
                 "link": "https://drive.google.com/file/d/1HDUqd5RcAhZE29PSghB09X24LqkgJQV2/preview",
-                "unlocked": false
+                "unlocked": true
             },
             {
                 "display": "त्र",
