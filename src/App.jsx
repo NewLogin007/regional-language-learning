@@ -7,6 +7,8 @@ import Vowels from "./pages/vowels/Vowels";
 import Learn from "./pages/learn/Learn";
 import ConsonantsList from "./pages/cononants/ConsonantsList";
 import Consonant from "./pages/cononants/Consonant";
+import Practice from "./pages/practice/Practice";
+import SubmitAudio from "./pages/practice/SubmitAudio";
 
  function App() {
   const [userData, setUserData] = React.useState({});
@@ -24,6 +26,8 @@ import Consonant from "./pages/cononants/Consonant";
                 <Route path='/vowels' element={<Vowels />} />
                 <Route path='/consonantslist' element={<ConsonantsList />} />
                 <Route path='/consonant' element={<Consonant />} />
+                <Route path='/practice' element={<Practice />} />
+                <Route path='/submitaudio' element={<SubmitAudio />} />
               </Routes>
             </BrowserRouter>
           </UserContext.Provider>

@@ -24,7 +24,7 @@ export default function Home() {
         <div className={s.btn} onClick={() => {navigate("/learn")}}>
           Learn
         </div>
-        <div className={s.btn}>
+        <div className={s.btn} onClick={() => {navigate("/practice")}}>
           Practice
         </div>
       </div>
